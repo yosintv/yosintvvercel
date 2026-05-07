@@ -238,9 +238,9 @@ export default function YoSinTVHome({
         <div className="nav-in">
           {topNavItems.map((item) => (
             <button
-              className={`nl ${activeFilter === item.filter ? "active" : ""}`}
-              key={item.filter}
-              onClick={() => setActiveFilter(item.filter)}
+              className={`nl ${activeFilter === (item.filter ?? "all") ? "active" : ""}`}
+              key={item.label}
+              onClick={() => setActiveFilter(item.filter ?? "all")}
               type="button"
             >
               {item.label}
