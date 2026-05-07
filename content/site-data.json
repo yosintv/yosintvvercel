@@ -15,9 +15,9 @@
       "filter": "Football"
     },
     {
-      "label": "Playing XI",
-      "href": "/?filter=Playing%20XI",
-      "filter": "Playing XI"
+      "label": "FIFA World Cup 2026",
+      "href": "/football.html",
+      "filter": "FIFA World Cup 2026"
     },
     {
       "label": "Preview",
