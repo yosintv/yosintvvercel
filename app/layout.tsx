@@ -54,6 +54,40 @@ export default function RootLayout({
           crossOrigin="anonymous"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5525538810839147"
         />
+        <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "1px", overflow: "hidden", visibility: "hidden", zIndex: 9999 }}>
+          <Script
+            id="waukox-counter-init"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html:
+                'var _wau = window._wau || []; _wau.push(["dynamic", "1qzxz258so", "kox", "c4302bffffff", "small"]); window._wau = _wau;',
+            }}
+          />
+          <Script
+            id="waukox-counter-loader"
+            async
+            strategy="afterInteractive"
+            src="https://waust.at/d.js"
+          />
+        </div>
+        <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "1px", overflow: "hidden", visibility: "hidden", zIndex: 9999 }}>
+          <Script
+            id="supercounters-loader"
+            async
+            strategy="afterInteractive"
+            src="https://widget.supercounters.com/ssl/online_i.js"
+          />
+          <Script
+            id="supercounters-init"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{ __html: 'if (typeof sc_online_i === "function") { sc_online_i(1714446, "ffffff", "ffffff"); }' }}
+          />
+          <noscript>
+            <a href="https://www.supercounters.com/" style={{ visibility: "hidden" }}>
+              free online counter
+            </a>
+          </noscript>
+        </div>
         {children}
       </body>
     </html>
