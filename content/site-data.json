@@ -6,17 +6,17 @@
     },
     {
       "label": "Cricket",
-      "href": "./cricket.html",
+      "href": "cricket.html",
       "filter": "Cricket"
     },
     {
       "label": "Football",
-      "href": "./football.html",
+      "href": "football.html",
       "filter": "Football"
     },
     {
       "label": "FIFA World Cup 2026",
-      "href": "./football.html",
+      "href": "football.html",
       "filter": "FIFA World Cup 2026"
     },
     {
