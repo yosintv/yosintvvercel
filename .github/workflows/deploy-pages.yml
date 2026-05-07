@@ -12,13 +12,11 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,13 +48,11 @@ jobs:
           path: ./out
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
