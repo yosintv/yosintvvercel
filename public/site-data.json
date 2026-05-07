@@ -2,21 +2,21 @@
   "topNavLinks": [
     {
       "label": "Home",
-      "href": "/"
+      "href": "./"
     },
     {
       "label": "Cricket",
-      "href": "/cricket.html",
+      "href": "./cricket.html",
       "filter": "Cricket"
     },
     {
       "label": "Football",
-      "href": "/football.html",
+      "href": "./football.html",
       "filter": "Football"
     },
     {
       "label": "FIFA World CUp 2026",
-      "href": "/",
+      "href": "./",
       "filter": "FIFA World CUp 2026"
     },
     {
