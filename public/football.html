@@ -256,5 +256,17 @@ async function loadArticles(){
 async function loadMatches(){clearInterval(timer);const list=document.getElementById('match-list');try{const res=await fetch(API_URL,{cache:'no-store'});if(!res.ok)throw new Error(res.status);const data=await res.json();const arr=Array.isArray(data)?data:(data.matches||[]);if(!arr.length){list.innerHTML='<p class="ev-loading">No upcoming matches found.</p>';return}allMatches=sortMatches(arr);list.innerHTML='';allMatches.forEach(m=>list.appendChild(card(m)));tick();timer=setInterval(tick,1000)}catch(e){console.error(e);list.innerHTML='<p class="ev-loading">Error loading matches.</p>'}}
 document.addEventListener('DOMContentLoaded',()=>{pushAds();applySiteLinks();loadMatches();loadArticles()});
 </script>
+
+<div style="position:fixed;top:0;left:0;width:100%;height:1px;overflow:hidden;visibility:hidden;z-index:9999;">
+<script id="_waukox">var _wau = _wau || []; _wau.push(["dynamic", "1qzxz258so", "kox", "c4302bffffff", "small"]);</script>
+<script async src="https://waust.at/d.js"></script>
+</div>
+
+<div style="position:fixed;top:0;left:0;width:100%;height:1px;overflow:hidden;visibility:hidden;z-index:9999;">
+<script type="text/javascript" src="https://widget.supercounters.com/ssl/online_i.js"></script>
+<script type="text/javascript">sc_online_i(1714446,"ffffff","ffffff");</script>
+<noscript><a href="https://www.supercounters.com/" style="visibility:hidden;">free online counter</a></noscript>
+</div>
+
 </body>
 </html>
