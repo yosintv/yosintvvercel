@@ -5,6 +5,7 @@ const normalizedBasePath =
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
   trailingSlash: true,
   images: {
     unoptimized: true,
@@ -12,4 +13,5 @@ const nextConfig = {
   basePath: normalizedBasePath,
   assetPrefix: normalizedBasePath ? `${normalizedBasePath}/` : "",
 };
+
 export default nextConfig;
