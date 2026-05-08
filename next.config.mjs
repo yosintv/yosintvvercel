@@ -12,5 +12,4 @@ const nextConfig = {
   basePath: normalizedBasePath,
   assetPrefix: normalizedBasePath ? `${normalizedBasePath}/` : "",
 };
-
 export default nextConfig;
