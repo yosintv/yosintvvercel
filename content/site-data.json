@@ -6,17 +6,21 @@
     },
     {
       "label": "FIFA World Cup 2026",
-      "href": "https://t.me/yosintvlive",
+      "href": "/football/",
       "filter": "FIFA World Cup 2026"
     },
     {
+      "label": "Join Telegram",
+      "href": "https://t.me/yosintvlive",
+      "external": true
+    }    {
       "label": "Cricket",
-      "href": "/cricket.html",
+      "href": "/cricket/",
       "filter": "Cricket"
     },
     {
       "label": "Football",
-      "href": "/football.html",
+      "href": "/football/",
       "filter": "Football"
     },
     {
@@ -32,11 +36,6 @@
     {
       "label": "Highlights",
       "href": "https://www.cricfoot.net/?ads=yosintv.net",
-      "external": true
-    },
-    {
-      "label": "Telegram",
-      "href": "https://t.me/yosintvlive",
       "external": true
     }
   ],
