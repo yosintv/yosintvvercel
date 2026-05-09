@@ -5,14 +5,14 @@
       "href": "/"
     },
     {
-      "label": "FIFA World Cup 2026",
-      "href": "/football/",
-      "filter": "FIFA World Cup 2026"
-    },
-    {
       "label": "Join Telegram",
       "href": "https://t.me/yosintvlive",
       "external": true
+    },
+    {
+      "label": "FIFA World Cup 2026",
+      "href": "/football/",
+      "filter": "FIFA World Cup 2026"
     },
     {
       "label": "Cricket",
