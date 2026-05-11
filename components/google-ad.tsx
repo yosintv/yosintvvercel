@@ -28,7 +28,7 @@ export default function GoogleAd({ className = "", label }: GoogleAdProps) {
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-5525538810839147"
+        data-ad-client="ca-pub-7981191925382455"
         data-ad-slot="4345862479"
         data-ad-format="auto"
         data-full-width-responsive="true"
